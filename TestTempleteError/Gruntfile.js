@@ -13,8 +13,8 @@
                 files: [
                     { expand: true, cwd: "node_modules/jquery/dist/", src: ["jquery.min.js"], dest: "wwwroot/js" },
                     { expand: true, cwd: "node_modules/popper.js/dist/umd/", src: ["popper.min.js"], dest: "wwwroot/js" },
-                    { expand: true, cwd: "node_modules/perfect-scrollbar/dist/", src: ["perfect-scrollbar.min.js"], dest: "wwwroot/js" },
-                    { expand: true, cwd: "node_modules/@coreui/coreui/dist/js/", src: ["coreui.bundle.min.js"], dest: "wwwroot/js" },
+                    { expand: true, cwd: "node_modules/perfect-scrollbar/dist/", src: ["perfect-scrollbar.min.js"], dest: "wwwroot/js" }
+                    //{ expand: true, cwd: "node_modules/@coreui/coreui/dist/js/", src: ["coreui.bundle.js"], dest: "wwwroot/js" },
 
                 ]
             }
